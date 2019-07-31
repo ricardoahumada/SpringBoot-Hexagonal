@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+
+        <!--  Appender to log to file -->
+        <File name="MyFile" fileName="hibernate.log" immediateFlush="false" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>    
+
+    </Appenders>
+    
+    
+    <Loggers>
+        <Root level="WARN">
+            <AppenderRef ref="Console" />
+        </Root>
+
+    <!-- General Hibernate Logging info -->
+    <!-- <Logger name="org.hibernate" level="info"/>  -->
+
+	<!-- log JDBC bind parameters -->
+	<Logger name="org.hibernate.type" level="info"/>
+
+
+	<!-- log HQL query parser activity -->
+	<!-- <Logger name="org.hibernate.hql.ast.AST" level="debug"/> -->
+
+	<!-- log just the SQL -->
+	<!-- <Logger name="org.hibernate.SQL" level="debug"/> -->
+
+
+	<!-- log schema export/update -->
+	<!-- <Logger name="org.hibernate.tool.hbm2ddl" level="debug"/> -->
+
+	<!-- log HQL parse trees -->
+	<!-- <Logger name="org.hibernate.hql" level="debug"/> -->
+
+	<!-- log cache activity -->
+	<!-- <Logger name="org.hibernate.cache" level="debug"/> -->
+
+	<!-- log transaction activity -->
+	<!-- <Logger name="org.hibernate.transaction" level="debug"/> -->
+
+	<!-- log JDBC resource acquisition -->
+	<!-- <Logger name="org.hibernate.jdbc" level="debug"/> -->
+
+	<!-- enable the following line if you want to track down connection -->
+	<!-- leakages when using DriverManagerConnectionProvider -->
+	<!-- <Loggername="org.hibernate.connection.DriverManagerConnectionProvider" 
+		level="trace"/> -->
+		
+    </Loggers>  
+    
+ </Configuration>  

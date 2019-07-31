@@ -5,6 +5,7 @@ import java.util.Collection;
 import es.bit.tareasproyectoshex.models.User;
 import es.bit.tareasproyectoshex.ports.UserRepository;
 import es.bit.tareasproyectoshex.ports.UserService;
+import org.springframework.transaction.annotation.Transactional;
 
 
 public class UserServiceAdapter implements UserService {
@@ -16,6 +17,7 @@ public class UserServiceAdapter implements UserService {
 	}
 
 	@Override
+	@Transactional
 	public User findById(Long id) {
 		return userRepo.findOne(id);
 	}

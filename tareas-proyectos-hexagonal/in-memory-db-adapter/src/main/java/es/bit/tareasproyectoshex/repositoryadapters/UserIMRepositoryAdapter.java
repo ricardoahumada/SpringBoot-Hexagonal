@@ -11,12 +11,12 @@ import java.util.Optional;
 import es.bit.tareasproyectoshex.models.User;
 import es.bit.tareasproyectoshex.ports.UserRepository;
 
-public class UserRepositoryAdapter implements UserRepository {
+public class UserIMRepositoryAdapter implements UserRepository {
 
 	private List<User> catalogData = new ArrayList<>(Arrays.asList(
-			new User(1,"ric","r@r.com","rc1"),
-			new User(2,"ana","a@a.com","ann2"),
-			new User(3,"gab","g@g.com","gab3")
+			new User(1L,"ric","r@r.com","rc1"),
+			new User(2L,"ana","a@a.com","ann2"),
+			new User(3L,"gab","g@g.com","gab3")
 	));
 
 	@Override
