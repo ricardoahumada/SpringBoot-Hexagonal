@@ -1,6 +1,7 @@
 package es.bit.tareasproyectoshex.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -12,6 +13,7 @@ import es.bit.tareasproyectoshex.serviceadapters.UserServiceAdapter;
 public class ApplicationConfiguration {
 
     @Autowired
+    @Qualifier("jpaRepo")
     UserRepository userRepository;
 
     @Bean
