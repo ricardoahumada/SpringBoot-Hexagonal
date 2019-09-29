@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class SpringRepositoryConfig {
-	@Bean
+	@Bean(name = "InMemoryRepo")
 	public UserRepository userRepository() {
 		return new UserIMRepositoryAdapter();
 	}

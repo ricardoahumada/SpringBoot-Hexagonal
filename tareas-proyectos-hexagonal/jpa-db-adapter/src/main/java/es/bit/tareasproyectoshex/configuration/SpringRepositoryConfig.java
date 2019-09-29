@@ -84,7 +84,7 @@ public class SpringRepositoryConfig {
 		return properties;
 	}
 
-	@Bean
+	@Bean(name = "jpaRepo")
 	public UserRepository userRepository() {
 		return new UserJPARepositoryAdapter();
 	}

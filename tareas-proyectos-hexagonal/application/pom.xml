@@ -31,11 +31,11 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
-		<!--<dependency>
+		<dependency>
 			<groupId>es.bit</groupId>
 			<artifactId>in-memory-db-adapter</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>-->
+		</dependency>
 
 		<dependency>
 			<groupId>es.bit</groupId>
