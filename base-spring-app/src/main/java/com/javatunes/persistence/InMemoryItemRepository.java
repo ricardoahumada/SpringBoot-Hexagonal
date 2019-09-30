@@ -19,7 +19,13 @@ import java.util.stream.Collectors;
 
 import com.javatunes.domain.MusicCategory;
 import com.javatunes.domain.MusicItem;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+import javax.inject.Named;
+
+//@Named("itemRepository")
 public class InMemoryItemRepository implements ItemRepository {
 
 	/** This is simply to eliminate the need to provide an in-memory database! */
@@ -105,6 +111,16 @@ public class InMemoryItemRepository implements ItemRepository {
 	@Override
 	public void delete(MusicItem item) {
 		// Not implemented
+	}
+
+	@PostConstruct
+	public void init() {
+		System.out.println("PostConstruct.....");
+	}
+
+	@PreDestroy
+	public void cleanup() {
+		System.out.println("PreDestroy.....");
 	}
 
 }

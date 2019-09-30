@@ -1,25 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4264d701-31d0-4185-8e08-850663775d87" name="Default Changelist" comment="" />
+    <list default="true" id="5dbf6662-64c7-45e8-a10f-c196469ab0b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatunes/config/RepositoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatunes/config/RepositoryConfigDev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatunes/config/ServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatunes/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatunes/domain/MusicCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatunes/domain/MusicItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatunes/persistence/InMemoryItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatunes/persistence/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatunes/service/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatunes/service/CatalogImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/javatunes/service/CatalogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatunes/persistence/InMemoryItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatunes/persistence/InMemoryItemRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatunes/service/CatalogImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatunes/service/CatalogImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/javatunes/service/CatalogTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/javatunes/service/CatalogTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1RWGRcjoY5X3NPQodUe1qrQwSHZ" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1RY3ceVk9zedJDK8tOSValOznp7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Shared\MyFiles\BIT\Spring5\workspace\base-spring-app\src\main\resources" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javatunes.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Shared\MyFiles\BIT\Spring5\workspace\base-spring-app\src\test\java" />
-      <recent name="D:\Shared\MyFiles\BIT\Spring5\workspace\base-spring-app\src\main\java" />
-      <recent name="D:\Shared\MyFiles\BIT\Spring5\workspace\base-spring-app\src\main" />
+      <recent name="D:\Shared\MyFiles\BIT\Spring5\SpringBoot\base-spring-app\src\main\resources" />
+      <recent name="D:\Shared\MyFiles\BIT\Spring5\SpringBoot\base-spring-app\src\test\java" />
+      <recent name="D:\Shared\MyFiles\BIT\Spring5\SpringBoot\base-spring-app\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -34,7 +67,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CatalogTest.testCatalogLookupPositive">
+    <configuration name="CatalogTest.testBeansPrototype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="base-spring-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatunes.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javatunes.service" />
+      <option name="MAIN_CLASS_NAME" value="com.javatunes.service.CatalogTest" />
+      <option name="METHOD_NAME" value="testBeansPrototype" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CatalogTest.testCatalogLookupPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="base-spring-app" />
       <extension name="coverage">
@@ -51,9 +100,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CatalogTest.testCatalogProfiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="base-spring-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatunes.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javatunes.service" />
+      <option name="MAIN_CLASS_NAME" value="com.javatunes.service.CatalogTest" />
+      <option name="METHOD_NAME" value="testCatalogProfiles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CatalogTest.testCatalogLookupPositive" />
+        <item itemvalue="JUnit.CatalogTest.testCatalogProfiles" />
+        <item itemvalue="JUnit.CatalogTest.testBeansPrototype" />
       </list>
     </recent_temporary>
   </component>
@@ -62,12 +129,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4264d701-31d0-4185-8e08-850663775d87" name="Default Changelist" comment="" />
-      <created>1569775431825</created>
+      <changelist id="5dbf6662-64c7-45e8-a10f-c196469ab0b2" name="Default Changelist" comment="" />
+      <created>1569830282692</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569775431825</updated>
+      <updated>1569830282692</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

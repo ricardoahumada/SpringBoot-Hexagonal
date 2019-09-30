@@ -12,10 +12,26 @@ import java.util.Collection;
 
 import com.javatunes.domain.MusicItem;
 import com.javatunes.persistence.ItemRepository;
-// TODO: implement appropriate interface
-public class CatalogImpl {
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import javax.inject.Inject;
+import javax.inject.Named;
+
+// TODO: implement appropriate interface
+//@Named("CatalogMusic")
+public class CatalogImpl implements Catalog{
+
+	//@Inject
 	private ItemRepository itemRepository;
+
+	public CatalogImpl(){
+	}
+
+	//@Inject
+	public CatalogImpl(ItemRepository itemRepository){
+		this.itemRepository=itemRepository;
+	}
 
 	public void setItemRepository(ItemRepository itemRepository) {
 		this.itemRepository = itemRepository;

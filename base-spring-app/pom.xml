@@ -45,6 +45,12 @@
       <version>${springframework.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>${springframework.version}</version>
+    </dependency>
+
     <!-- javax.inject -->
     <dependency>
       <groupId>javax.inject</groupId>
