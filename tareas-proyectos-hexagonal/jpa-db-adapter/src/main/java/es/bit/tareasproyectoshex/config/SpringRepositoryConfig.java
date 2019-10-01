@@ -6,7 +6,7 @@
  * Copyright LearningPatterns Inc.
  */
  
-package es.bit.tareasproyectoshex.configuration;
+package configuration;
 
 import java.util.Properties;
 
