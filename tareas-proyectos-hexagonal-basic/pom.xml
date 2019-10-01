@@ -28,6 +28,7 @@
 		<module>rest-api-adapter</module>
 		<module>in-memory-db-adapter</module>
 		<module>application</module>
+		<module>service-adapter</module>
 	</modules>
 
 </project>

@@ -1,8 +1,6 @@
 package es.bit.tareasproyectoshex.controllers;
 
 import java.util.Collection;
-import java.util.Collections;
-import java.util.Optional;
 
 import javax.validation.Valid;
 
@@ -17,27 +15,27 @@ import org.springframework.web.bind.annotation.RestController;
 
 import es.bit.tareasproyectoshex.models.ErrorMessage;
 import es.bit.tareasproyectoshex.models.User;
-import es.bit.tareasproyectoshex.ports.UserService;
+import es.bit.tareasproyectoshex.ports.UserServicePort;
 
 @RestController
 public class UsersRestController {
 
     
-    private UserService userService;
+    private UserServicePort userServicePort;
 
     @Autowired
-    public UsersRestController(UserService userService) {
-        this.userService = userService;
+    public UsersRestController(UserServicePort userServicePort) {
+        this.userServicePort = userServicePort;
     }
 
     @RequestMapping(value = "/users", method = RequestMethod.GET)
     public Collection<User> getUsers() {
-        return userService.findAll();
+        return userServicePort.findAll();
     }
 
     @RequestMapping(value = "/users/{userid}", method = RequestMethod.GET)
     public ResponseEntity getUser(@PathVariable Long userid) {
-        User possibleUser = userService.findById(userid);
+        User possibleUser = userServicePort.findById(userid);
         if (possibleUser!=null) {
             return new ResponseEntity(possibleUser, HttpStatus.OK);
         }
@@ -49,7 +47,7 @@ public class UsersRestController {
 
     @RequestMapping(value = "/users", method = RequestMethod.POST)
     public ResponseEntity addUser(@Valid @RequestBody User newUser) {
-        User user = userService.add(newUser);
+        User user = userServicePort.add(newUser);
         if (user.getUid() > 0) {
             return new ResponseEntity("{\"id\": " + user.getUid() + "}", HttpStatus.CREATED);
         }

@@ -4,7 +4,7 @@ import java.util.Collection;
 
 import es.bit.tareasproyectoshex.models.User;
 
-public interface UserRepository {
+public interface UserRepositoryPort {
 	public User findOne(Long id);
 	
 	public Collection<User> findAll();

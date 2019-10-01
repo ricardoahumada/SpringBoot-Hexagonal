@@ -1,18 +1,18 @@
-package es.bit.tareasproyectoshex.serviceadapters;
+package es.bit.serviceadapters;
 
 import java.util.Collection;
 
 import es.bit.tareasproyectoshex.models.User;
-import es.bit.tareasproyectoshex.ports.UserRepository;
-import es.bit.tareasproyectoshex.ports.UserService;
+import es.bit.tareasproyectoshex.ports.UserRepositoryPort;
+import es.bit.tareasproyectoshex.ports.UserServicePort;
 
 
-public class UserServiceAdapter implements UserService {
+public class UserServicePortAdapter implements UserServicePort {
 
-	private UserRepository userRepo;
+	private UserRepositoryPort userRepo;
 
-	public void setUserRepository(UserRepository userRepository) {
-		this.userRepo = userRepository;
+	public void setUserRepository(UserRepositoryPort userRepositoryPort) {
+		this.userRepo = userRepositoryPort;
 	}
 
 	@Override

@@ -9,9 +9,9 @@ import java.util.List;
 import java.util.Optional;
 
 import es.bit.tareasproyectoshex.models.User;
-import es.bit.tareasproyectoshex.ports.UserRepository;
+import es.bit.tareasproyectoshex.ports.UserRepositoryPort;
 
-public class UserRepositoryAdapter implements UserRepository {
+public class UserRepositoryPortAdapter implements UserRepositoryPort {
 
 	private List<User> catalogData = new ArrayList<>(Arrays.asList(
 			new User(1,"ric","r@r.com","rc1"),
