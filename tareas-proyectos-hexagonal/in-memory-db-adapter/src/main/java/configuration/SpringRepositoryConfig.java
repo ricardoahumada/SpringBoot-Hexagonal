@@ -6,7 +6,7 @@
  * Copyright LearningPatterns Inc.
  */
  
-package es.bit.tareasproyectoshex.configuration;
+package configuration;
 
 import es.bit.tareasproyectoshex.ports.UserRepository;
 import es.bit.tareasproyectoshex.repositoryadapters.UserIMRepositoryAdapter;
@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class SpringRepositoryConfig {
-	//@Bean(name = "InMemoryRepo")
+	@Bean(name = "InMemoryRepo")
 	public UserRepository userRepository() {
 		return new UserIMRepositoryAdapter();
 	}

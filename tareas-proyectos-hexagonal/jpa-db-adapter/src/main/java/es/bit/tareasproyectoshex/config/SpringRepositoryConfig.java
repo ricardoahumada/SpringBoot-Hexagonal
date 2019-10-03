@@ -6,11 +6,7 @@
  * Copyright LearningPatterns Inc.
  */
  
-package configuration;
-
-import java.util.Properties;
-
-import javax.sql.DataSource;
+package es.bit.tareasproyectoshex.config;
 
 import es.bit.tareasproyectoshex.ports.UserRepository;
 import es.bit.tareasproyectoshex.repositoryadapters.UserJPARepositoryAdapter;
@@ -26,8 +22,10 @@ import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
-
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import javax.sql.DataSource;
+import java.util.Properties;
 
 @Configuration
 @PropertySource("classpath:jdbc.properties")
@@ -82,11 +80,6 @@ public class SpringRepositoryConfig {
 		Properties properties = new Properties();
 		properties.setProperty("hibernate.dialect", env.getProperty("tareasproyectos.dialect"));
 		return properties;
-	}
-
-	@Bean(name = "jpaRepo")
-	public UserRepository userRepository() {
-		return new UserJPARepositoryAdapter();
 	}
 
 }

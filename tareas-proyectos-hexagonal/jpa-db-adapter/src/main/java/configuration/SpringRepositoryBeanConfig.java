@@ -30,7 +30,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
-public class SpringRepositoryConfig {
+public class SpringRepositoryBeanConfig {
 
 	@Bean(name = "jpaRepo")
 	public UserRepository userRepository() {

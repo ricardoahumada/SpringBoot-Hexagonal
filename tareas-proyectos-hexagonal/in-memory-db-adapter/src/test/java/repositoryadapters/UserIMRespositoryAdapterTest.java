@@ -8,7 +8,7 @@
 
 package repositoryadapters;
 
-import es.bit.tareasproyectoshex.configuration.SpringRepositoryConfig;
+import configuration.SpringRepositoryConfig;
 import es.bit.tareasproyectoshex.models.User;
 import es.bit.tareasproyectoshex.ports.UserRepository;
 import org.junit.Test;

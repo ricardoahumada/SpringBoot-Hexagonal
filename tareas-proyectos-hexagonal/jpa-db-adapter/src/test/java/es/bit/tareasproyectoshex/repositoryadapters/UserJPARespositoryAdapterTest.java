@@ -8,9 +8,8 @@
 
 package es.bit.tareasproyectoshex.repositoryadapters;
 
-import static org.junit.Assert.assertNotNull;
-
-import es.bit.tareasproyectoshex.configuration.SpringRepositoryConfig;
+import configuration.SpringRepositoryBeanConfig;
+import es.bit.tareasproyectoshex.config.SpringRepositoryConfig;
 import es.bit.tareasproyectoshex.models.User;
 import es.bit.tareasproyectoshex.ports.UserRepository;
 import org.junit.Test;
@@ -22,9 +21,11 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.Collection;
 
+import static org.junit.Assert.assertNotNull;
+
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes={SpringRepositoryConfig.class})
+@SpringBootTest(classes={SpringRepositoryBeanConfig.class, SpringRepositoryConfig.class})
 public class UserJPARespositoryAdapterTest {
 
     @Autowired
