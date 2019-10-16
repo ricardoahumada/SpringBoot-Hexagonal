@@ -1,12 +1,17 @@
 package es.bit.tweeterApp.api;
 
+import es.bit.tweeterApp.api.maps.TweetMapper;
 import es.bit.tweeterApp.api.models.Message;
+import es.bit.tweeterApp.api.models.TweetDto;
 import es.bit.tweeterApp.internal.domain.Tweet;
 import es.bit.tweeterApp.internal.driver_ports.IServiceTweetsPort;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -16,15 +21,22 @@ public class TweetController {
     private IServiceTweetsPort serviceTweetsPort;
 
     @RequestMapping(path ="/tweets" ,method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<Tweet> getTweets(@RequestParam String theme){
+    public ResponseEntity<List<TweetDto>> getTweets(@RequestParam String theme){
 
-        return serviceTweetsPort.getTweets(theme);
+        List<Tweet> tweets= serviceTweetsPort.getTweets(theme);
+        List<TweetDto> tweetDtos= TweetMapper.INSTANCE.tweetsToTweetDtos(tweets);
+
+        return new ResponseEntity(tweetDtos, HttpStatus.OK);
     }
 
     @RequestMapping(path ="/tweets" ,method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-    public Message getTweets(@RequestBody Tweet tweet){
-        serviceTweetsPort.publishTweet(tweet);
-        return new Message("Todo Ook");
+    public ResponseEntity<Message> addTweet(@Valid @RequestBody TweetDto newTweetDto){
+        Tweet newTweet= TweetMapper.INSTANCE.tweetDtoToTweet(newTweetDto);
+        newTweet= serviceTweetsPort.publishTweet(newTweet);
+        TweetDto tweetDto=TweetMapper.INSTANCE.tweetToTweetDto(newTweet);
+
+        if(tweetDto.getId()>0) return new ResponseEntity(new Message("Todo Ook"),HttpStatus.CREATED);
+        else return new ResponseEntity(new Message("No se ha creado"),HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
 }

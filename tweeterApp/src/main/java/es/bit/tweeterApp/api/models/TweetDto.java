@@ -5,12 +5,15 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
+import java.util.Date;
 
 @Builder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Message {
-    private String mensaje;
+public class TweetDto {
+    private Long id;
+    private String texto;
+    private Date fecha;
+    private Long autor;
 }
