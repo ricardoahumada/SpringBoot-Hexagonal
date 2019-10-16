@@ -1,4 +1,8 @@
+
 spring:
+  outout:
+    ansi:
+      enabled: ALWAYS
   datasource:
     url: jdbc:mysql://localhost/tweets
     username: root
