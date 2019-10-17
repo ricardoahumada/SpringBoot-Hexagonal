@@ -29,8 +29,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.LinkedBlockingDeque;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
@@ -47,32 +46,40 @@ public class TweetWSControllerTest {
 
     CompletableFuture<TweetMessage> completableFuture;
     WebSocketStompClient stompClient;
+    StompSession session;
 
     @Before
-    public void setup() {
+    public void setup() throws Exception {
         WEBSOCKET_URI="ws://localhost:"+port+"/tweets";
 
         completableFuture = new CompletableFuture<>();
         stompClient = new WebSocketStompClient(new SockJsClient(createTransportClient()));
         stompClient.setMessageConverter(new MappingJackson2MessageConverter());
+        session = stompClient
+                .connect(WEBSOCKET_URI, new StompSessionHandlerAdapter() {})
+                .get(1, SECONDS);
+        session.subscribe(WEBSOCKET_TOPIC, new DefaultStompFrameHandler());
     }
 
     @Test
-    public void shouldReceiveAMessageFromTheServer() throws Exception {
-        StompSession session = stompClient
-                .connect(WEBSOCKET_URI, new StompSessionHandlerAdapter() {})
-                .get(1, SECONDS);
-
-        session.subscribe(WEBSOCKET_TOPIC, new DefaultStompFrameHandler());
+    public void shouldSendTweetToServer() throws Exception {
 
         TweetMessage tweetMessage=new TweetMessage("Hola tweet websocket!",new Date(),1L, TweetMessage.MessageType.TWEET);
         session.send(WEBSOCKET_ADD_USER, tweetMessage);
+        assertTrue(session.isConnected());
+    }
 
+    @Test
+    public void shouldReceiveTweetFromServer() throws Exception {
         TweetMessage tweetMessageRec =completableFuture.get(10, SECONDS);
-
         logger.info("TweetMessage received:"+tweetMessageRec);
-
         assertNotNull(tweetMessageRec);
+    }
+
+    @Test
+    public void shouldDisconnect() throws Exception {
+        session.disconnect();
+        assertFalse(session.isConnected());
     }
 
     private List<Transport> createTransportClient() {

@@ -26,6 +26,7 @@ public class WebSocketEventListener {
     @EventListener
     public void handleWebSocketDisconnectListener(SessionDisconnectEvent event) {
         StompHeaderAccessor headerAccessor = StompHeaderAccessor.wrap(event.getMessage());
+        logger.info("Received a new web socket disconnection");
 
         String user = (String) headerAccessor.getSessionAttributes().get("user");
         if(user != null) {

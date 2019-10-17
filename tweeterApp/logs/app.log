@@ -28,3 +28,32 @@
 [INFO ] 2019-10-17 09:56:42.978 [main] TweetWSControllerTest - Started TweetWSControllerTest in 14.798 seconds (JVM running for 18.876)
 [INFO ] 2019-10-17 09:56:43.660 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
 [INFO ] 2019-10-17 09:56:43.877 [main] WebSocketEventListener - TweetMessage received:TweetMessage(texto=Hola ws!, fecha=Thu Oct 17 09:56:43 CEST 2019, autor=1, type=TWEET)
+[INFO ] 2019-10-17 10:17:06.949 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 5888 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-17 10:17:06.969 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-17 10:17:06.973 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-17 10:17:18.783 [main] TweetWSControllerTest - Started TweetWSControllerTest in 12.533 seconds (JVM running for 16.579)
+[INFO ] 2019-10-17 10:17:19.494 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-17 10:17:19.734 [main] WebSocketEventListener - TweetMessage received:TweetMessage(texto=Hola tweet websocket!, fecha=Thu Oct 17 10:17:19 CEST 2019, autor=1, type=TWEET)
+[INFO ] 2019-10-17 10:19:56.026 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 8656 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-17 10:19:56.042 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-17 10:19:56.042 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-17 10:20:07.523 [main] TweetWSControllerTest - Started TweetWSControllerTest in 12.17 seconds (JVM running for 16.164)
+[INFO ] 2019-10-17 10:20:08.151 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-17 10:20:30.089 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 2100 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-17 10:20:30.113 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-17 10:20:30.117 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-17 10:20:41.740 [main] TweetWSControllerTest - Started TweetWSControllerTest in 12.463 seconds (JVM running for 16.342)
+[INFO ] 2019-10-17 10:20:42.426 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-17 10:20:42.613 [clientOutboundChannel-2] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-17 10:20:42.683 [main] WebSocketEventListener - TweetMessage received:TweetMessage(texto=Hola tweet websocket!, fecha=Thu Oct 17 10:20:42 CEST 2019, autor=1, type=TWEET)
+[INFO ] 2019-10-17 10:22:22.702 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16272 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-17 10:22:22.727 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-17 10:22:22.727 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-17 10:22:34.407 [main] TweetWSControllerTest - Started TweetWSControllerTest in 12.42 seconds (JVM running for 16.559)
+[INFO ] 2019-10-17 10:22:35.051 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-17 10:23:17.472 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 15068 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-17 10:23:17.485 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-17 10:23:17.489 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-17 10:23:29.161 [main] TweetWSControllerTest - Started TweetWSControllerTest in 12.387 seconds (JVM running for 16.324)
+[INFO ] 2019-10-17 10:23:29.819 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-17 10:23:29.832 [http-nio-auto-1-exec-4] WebSocketEventListener - Received a new web socket disconnection
