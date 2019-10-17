@@ -5,10 +5,12 @@ import es.bit.tweeterApp.api.models.Message;
 import es.bit.tweeterApp.api.models.TweetDto;
 import es.bit.tweeterApp.internal.domain.Tweet;
 import es.bit.tweeterApp.internal.driver_ports.IServiceTweetsPort;
+import es.bit.tweeterApp.websocket.model.TweetMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -19,6 +21,9 @@ public class TweetController {
 
     @Autowired
     private IServiceTweetsPort serviceTweetsPort;
+
+    @Autowired
+    private SimpMessageSendingOperations messagingTemplate;
 
     @RequestMapping(path ="/tweets" ,method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<TweetDto>> getTweets(@RequestParam String theme){
@@ -34,6 +39,12 @@ public class TweetController {
         Tweet newTweet= TweetMapper.INSTANCE.tweetDtoToTweet(newTweetDto);
         newTweet= serviceTweetsPort.publishTweet(newTweet);
         TweetDto tweetDto=TweetMapper.INSTANCE.tweetToTweetDto(newTweet);
+
+        TweetMessage tweetMessage = new TweetMessage();
+        tweetMessage.setType(TweetMessage.MessageType.TWEET);
+        tweetMessage.setAutor(newTweet.getId());
+        tweetMessage.setTexto(newTweet.getTexto());
+        messagingTemplate.convertAndSend("/topic/tweets", tweetMessage);
 
         if(tweetDto.getId()>0) return new ResponseEntity(new Message("Todo Ook"),HttpStatus.CREATED);
         else return new ResponseEntity(new Message("No se ha creado"),HttpStatus.INTERNAL_SERVER_ERROR);

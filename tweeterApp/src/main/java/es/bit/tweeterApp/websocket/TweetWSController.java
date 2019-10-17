@@ -6,8 +6,10 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Controller
+@CrossOrigin
 public class TweetWSController {
 
     @MessageMapping("/tweets.sendMessage")
@@ -21,7 +23,7 @@ public class TweetWSController {
     public TweetMessage addUser(@Payload TweetMessage tweetMessage,
                                SimpMessageHeaderAccessor headerAccessor) {
         // Add username in web socket session
-        headerAccessor.getSessionAttributes().put("user", tweetMessage.getAutor());
+        //headerAccessor.getSessionAttributes().put("user", tweetMessage.getAutor());
         return tweetMessage;
     }
 }
