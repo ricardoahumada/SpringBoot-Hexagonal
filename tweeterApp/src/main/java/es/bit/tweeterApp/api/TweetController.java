@@ -40,11 +40,11 @@ public class TweetController {
         newTweet= serviceTweetsPort.publishTweet(newTweet);
         TweetDto tweetDto=TweetMapper.INSTANCE.tweetToTweetDto(newTweet);
 
-        TweetMessage tweetMessage = new TweetMessage();
+        /*TweetMessage tweetMessage = new TweetMessage();
         tweetMessage.setType(TweetMessage.MessageType.TWEET);
         tweetMessage.setAutor(newTweet.getId());
-        tweetMessage.setTexto(newTweet.getTexto());
-        messagingTemplate.convertAndSend("/topic/tweets", tweetMessage);
+        tweetMessage.setTexto(newTweet.getTexto());*/
+        messagingTemplate.convertAndSend("/topic/tweets", TweetMapper.INSTANCE.tweetDtoTotweetMessage(tweetDto));
 
         if(tweetDto.getId()>0) return new ResponseEntity(new Message("Todo Ook"),HttpStatus.CREATED);
         else return new ResponseEntity(new Message("No se ha creado"),HttpStatus.INTERNAL_SERVER_ERROR);

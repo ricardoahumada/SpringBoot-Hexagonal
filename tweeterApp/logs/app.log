@@ -185,3 +185,78 @@
 [INFO ] 2019-10-17 14:33:54.224 [http-nio-8080-exec-5] TweetAspect$$EnhancerBySpringCGLIB$$a536341b -  Check for tweet output
 [INFO ] 2019-10-17 14:33:54.224 [http-nio-8080-exec-5] TweetAspect$$EnhancerBySpringCGLIB$$a536341b - execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet)) returned with value Tweet(id=31, texto=Hola este es otro tweet, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=User(id=1, nombre=null, email=null, password=null))
 [INFO ] 2019-10-17 14:33:57.408 [http-nio-8080-exec-3] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-18 07:51:20.167 [main] TweetControllerTest - Starting TweetControllerTest on DESKTOP-HOM2JF3 with PID 14108 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-18 07:51:20.223 [main] TweetControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-18 07:51:20.227 [main] TweetControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-18 07:55:23.584 [main] TweetControllerTest - Starting TweetControllerTest on DESKTOP-HOM2JF3 with PID 9480 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-18 07:55:23.607 [main] TweetControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-18 07:55:23.607 [main] TweetControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-18 07:55:34.233 [main] TweetControllerTest - Started TweetControllerTest in 11.403 seconds (JVM running for 15.13)
+[INFO ] 2019-10-18 07:55:34.523 [main] TweetAspect$$EnhancerBySpringCGLIB$$12405967 -  Check for tweet access 
+[INFO ] 2019-10-18 07:55:34.526 [main] TweetAspect$$EnhancerBySpringCGLIB$$12405967 -  Allowed execution for execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet))
+[INFO ] 2019-10-18 07:55:34.535 [main] TweetAspect$$EnhancerBySpringCGLIB$$12405967 -  Check for tweet access 
+[INFO ] 2019-10-18 07:55:34.535 [main] TweetAspect$$EnhancerBySpringCGLIB$$12405967 -  Allowed execution for execution(Object org.springframework.data.repository.CrudRepository.save(Object))
+[INFO ] 2019-10-18 07:55:34.653 [main] TweetAspect$$EnhancerBySpringCGLIB$$12405967 -  Check for tweet output
+[INFO ] 2019-10-18 07:55:34.653 [main] TweetAspect$$EnhancerBySpringCGLIB$$12405967 - execution(Object org.springframework.data.repository.CrudRepository.save(Object)) returned with value TweetEntity(id=32, texto=Nuevo tweet, fecha=Fri Oct 18 07:55:34 CEST 2019, autor=UserEntity(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 07:55:34.654 [main] TweetAspect$$EnhancerBySpringCGLIB$$12405967 -  Check for tweet output
+[INFO ] 2019-10-18 07:55:34.654 [main] TweetAspect$$EnhancerBySpringCGLIB$$12405967 - execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet)) returned with value Tweet(id=32, texto=Nuevo tweet, fecha=Fri Oct 18 07:55:34 CEST 2019, autor=User(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 07:58:23.555 [restartedMain] TweeterAppApplication - Starting TweeterAppApplication on DESKTOP-HOM2JF3 with PID 1960 (D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp\target\classes started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-18 07:58:23.632 [restartedMain] TweeterAppApplication - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-18 07:58:23.768 [restartedMain] TweeterAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-18 07:58:37.297 [restartedMain] TweeterAppApplication - Started TweeterAppApplication in 15.236 seconds (JVM running for 18.463)
+[INFO ] 2019-10-18 07:59:16.411 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-18 07:59:21.641 [http-nio-8080-exec-8] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Check for tweet access 
+[INFO ] 2019-10-18 07:59:21.643 [http-nio-8080-exec-8] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Allowed execution for execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet))
+[INFO ] 2019-10-18 07:59:21.662 [http-nio-8080-exec-8] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Check for tweet access 
+[INFO ] 2019-10-18 07:59:21.662 [http-nio-8080-exec-8] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Allowed execution for execution(Object org.springframework.data.repository.CrudRepository.save(Object))
+[INFO ] 2019-10-18 07:59:21.772 [http-nio-8080-exec-8] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Check for tweet output
+[INFO ] 2019-10-18 07:59:21.776 [http-nio-8080-exec-8] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e - execution(Object org.springframework.data.repository.CrudRepository.save(Object)) returned with value TweetEntity(id=33, texto=Hola este es otro tweet, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=UserEntity(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 07:59:21.776 [http-nio-8080-exec-8] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Check for tweet output
+[INFO ] 2019-10-18 07:59:21.776 [http-nio-8080-exec-8] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e - execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet)) returned with value Tweet(id=33, texto=Hola este es otro tweet, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=User(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 08:00:28.492 [http-nio-8080-exec-2] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Check for tweet access 
+[INFO ] 2019-10-18 08:00:28.498 [http-nio-8080-exec-2] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Allowed execution for execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet))
+[INFO ] 2019-10-18 08:00:28.502 [http-nio-8080-exec-2] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Check for tweet access 
+[INFO ] 2019-10-18 08:00:28.505 [http-nio-8080-exec-2] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Allowed execution for execution(Object org.springframework.data.repository.CrudRepository.save(Object))
+[INFO ] 2019-10-18 08:00:28.512 [http-nio-8080-exec-2] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Check for tweet output
+[INFO ] 2019-10-18 08:00:28.515 [http-nio-8080-exec-2] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e - execution(Object org.springframework.data.repository.CrudRepository.save(Object)) returned with value TweetEntity(id=34, texto=Hola este es otro tweet que se ha enviado a la API, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=UserEntity(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 08:00:28.519 [http-nio-8080-exec-2] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e -  Check for tweet output
+[INFO ] 2019-10-18 08:00:28.523 [http-nio-8080-exec-2] TweetAspect$$EnhancerBySpringCGLIB$$dffbbf9e - execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet)) returned with value Tweet(id=34, texto=Hola este es otro tweet que se ha enviado a la API, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=User(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 08:01:49.095 [restartedMain] TweeterAppApplication - Starting TweeterAppApplication on DESKTOP-HOM2JF3 with PID 2264 (D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp\target\classes started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-18 08:01:49.109 [restartedMain] TweeterAppApplication - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-18 08:01:49.115 [restartedMain] TweeterAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-18 08:01:59.880 [restartedMain] TweeterAppApplication - Started TweeterAppApplication in 12.501 seconds (JVM running for 15.198)
+[INFO ] 2019-10-18 08:02:07.053 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-18 08:02:11.685 [http-nio-8080-exec-3] TweetAspect$$EnhancerBySpringCGLIB$$47292296 -  Check for tweet access 
+[INFO ] 2019-10-18 08:02:11.894 [http-nio-8080-exec-3] TweetAspect$$EnhancerBySpringCGLIB$$47292296 -  Allowed execution for execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet))
+[INFO ] 2019-10-18 08:02:11.911 [http-nio-8080-exec-3] TweetAspect$$EnhancerBySpringCGLIB$$47292296 -  Check for tweet access 
+[INFO ] 2019-10-18 08:02:11.914 [http-nio-8080-exec-3] TweetAspect$$EnhancerBySpringCGLIB$$47292296 -  Allowed execution for execution(Object org.springframework.data.repository.CrudRepository.save(Object))
+[INFO ] 2019-10-18 08:02:12.105 [http-nio-8080-exec-3] TweetAspect$$EnhancerBySpringCGLIB$$47292296 -  Check for tweet output
+[INFO ] 2019-10-18 08:02:12.161 [http-nio-8080-exec-3] TweetAspect$$EnhancerBySpringCGLIB$$47292296 - execution(Object org.springframework.data.repository.CrudRepository.save(Object)) returned with value TweetEntity(id=35, texto=Hola este es otro tweet que se ha enviado a la API, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=UserEntity(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 08:02:12.169 [http-nio-8080-exec-3] TweetAspect$$EnhancerBySpringCGLIB$$47292296 -  Check for tweet output
+[INFO ] 2019-10-18 08:02:12.175 [http-nio-8080-exec-3] TweetAspect$$EnhancerBySpringCGLIB$$47292296 - execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet)) returned with value Tweet(id=35, texto=Hola este es otro tweet que se ha enviado a la API, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=User(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 08:03:07.902 [restartedMain] TweeterAppApplication - Starting TweeterAppApplication on DESKTOP-HOM2JF3 with PID 16076 (D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp\target\classes started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-18 08:03:07.921 [restartedMain] TweeterAppApplication - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-18 08:03:07.921 [restartedMain] TweeterAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-18 08:03:18.698 [restartedMain] TweeterAppApplication - Started TweeterAppApplication in 12.516 seconds (JVM running for 15.473)
+[INFO ] 2019-10-18 08:03:39.974 [http-nio-8080-exec-1] TweetAspect$$EnhancerBySpringCGLIB$$57f89666 -  Check for tweet access 
+[INFO ] 2019-10-18 08:03:39.975 [http-nio-8080-exec-1] TweetAspect$$EnhancerBySpringCGLIB$$57f89666 -  Allowed execution for execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet))
+[INFO ] 2019-10-18 08:03:39.998 [http-nio-8080-exec-1] TweetAspect$$EnhancerBySpringCGLIB$$57f89666 -  Check for tweet access 
+[INFO ] 2019-10-18 08:03:39.999 [http-nio-8080-exec-1] TweetAspect$$EnhancerBySpringCGLIB$$57f89666 -  Allowed execution for execution(Object org.springframework.data.repository.CrudRepository.save(Object))
+[INFO ] 2019-10-18 08:03:40.144 [http-nio-8080-exec-1] TweetAspect$$EnhancerBySpringCGLIB$$57f89666 -  Check for tweet output
+[INFO ] 2019-10-18 08:03:40.144 [http-nio-8080-exec-1] TweetAspect$$EnhancerBySpringCGLIB$$57f89666 - execution(Object org.springframework.data.repository.CrudRepository.save(Object)) returned with value TweetEntity(id=36, texto=Hola este es otro tweet que se ha enviado a la API, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=UserEntity(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 08:03:40.148 [http-nio-8080-exec-1] TweetAspect$$EnhancerBySpringCGLIB$$57f89666 -  Check for tweet output
+[INFO ] 2019-10-18 08:03:40.151 [http-nio-8080-exec-1] TweetAspect$$EnhancerBySpringCGLIB$$57f89666 - execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet)) returned with value Tweet(id=36, texto=Hola este es otro tweet que se ha enviado a la API, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=User(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 08:07:03.128 [restartedMain] TweeterAppApplication - Starting TweeterAppApplication on DESKTOP-HOM2JF3 with PID 2568 (D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp\target\classes started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-18 08:07:03.147 [restartedMain] TweeterAppApplication - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-18 08:07:03.147 [restartedMain] TweeterAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-18 08:07:20.911 [restartedMain] TweeterAppApplication - Started TweeterAppApplication in 19.447 seconds (JVM running for 22.922)
+[INFO ] 2019-10-18 08:07:32.585 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-18 08:07:36.018 [http-nio-8080-exec-4] TweetAspect$$EnhancerBySpringCGLIB$$9b9a736b -  Check for tweet access 
+[INFO ] 2019-10-18 08:07:36.025 [http-nio-8080-exec-4] TweetAspect$$EnhancerBySpringCGLIB$$9b9a736b -  Allowed execution for execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet))
+[INFO ] 2019-10-18 08:07:36.047 [http-nio-8080-exec-4] TweetAspect$$EnhancerBySpringCGLIB$$9b9a736b -  Check for tweet access 
+[INFO ] 2019-10-18 08:07:36.047 [http-nio-8080-exec-4] TweetAspect$$EnhancerBySpringCGLIB$$9b9a736b -  Allowed execution for execution(Object org.springframework.data.repository.CrudRepository.save(Object))
+[INFO ] 2019-10-18 08:07:36.219 [http-nio-8080-exec-4] TweetAspect$$EnhancerBySpringCGLIB$$9b9a736b -  Check for tweet output
+[INFO ] 2019-10-18 08:07:36.220 [http-nio-8080-exec-4] TweetAspect$$EnhancerBySpringCGLIB$$9b9a736b - execution(Object org.springframework.data.repository.CrudRepository.save(Object)) returned with value TweetEntity(id=37, texto=Hola este es otro tweet que se ha enviado a la API, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=UserEntity(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 08:07:36.222 [http-nio-8080-exec-4] TweetAspect$$EnhancerBySpringCGLIB$$9b9a736b -  Check for tweet output
+[INFO ] 2019-10-18 08:07:36.222 [http-nio-8080-exec-4] TweetAspect$$EnhancerBySpringCGLIB$$9b9a736b - execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet)) returned with value Tweet(id=37, texto=Hola este es otro tweet que se ha enviado a la API, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=User(id=1, nombre=null, email=null, password=null))
+[INFO ] 2019-10-18 08:07:51.133 [http-nio-8080-exec-2] WebSocketEventListener - Received a new web socket disconnection

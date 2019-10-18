@@ -5,8 +5,10 @@ import es.bit.tweeterApp.driven_adapter.models.TweetEntity;
 import es.bit.tweeterApp.driven_adapter.models.UserEntity;
 import es.bit.tweeterApp.internal.domain.Tweet;
 import es.bit.tweeterApp.internal.domain.User;
+import es.bit.tweeterApp.websocket.model.TweetMessage;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
+import org.mapstruct.ValueMapping;
 import org.mapstruct.factory.Mappers;
 
 import java.util.List;
@@ -22,4 +24,7 @@ public interface TweetMapper {
     TweetDto tweetToTweetDto(Tweet tweet);
     @Mapping(source = "autor", target = "autor.id")
     Tweet tweetDtoToTweet(TweetDto tweetDto);
+
+    @Mapping(target = "type", constant = "TWEET")
+    TweetMessage tweetDtoTotweetMessage(TweetDto tweetDto);
 }
