@@ -260,3 +260,457 @@
 [INFO ] 2019-10-18 08:07:36.222 [http-nio-8080-exec-4] TweetAspect$$EnhancerBySpringCGLIB$$9b9a736b -  Check for tweet output
 [INFO ] 2019-10-18 08:07:36.222 [http-nio-8080-exec-4] TweetAspect$$EnhancerBySpringCGLIB$$9b9a736b - execution(Tweet es.bit.tweeterApp.driven_adapter.RepoTweetsPortAdapter.save(Tweet)) returned with value Tweet(id=37, texto=Hola este es otro tweet que se ha enviado a la API, fecha=Thu Oct 10 02:00:00 CEST 2019, autor=User(id=1, nombre=null, email=null, password=null))
 [INFO ] 2019-10-18 08:07:51.133 [http-nio-8080-exec-2] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-19 09:06:57.319 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17920 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-19 09:06:57.341 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-19 09:06:57.343 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-19 09:07:09.922 [main] TweetWSControllerTest - Started TweetWSControllerTest in 13.652 seconds (JVM running for 21.112)
+[INFO ] 2019-10-19 09:07:10.577 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-19 09:07:10.785 [clientOutboundChannel-2] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-19 09:07:10.873 [main] WebSocketEventListener - TweetMessage received:TweetMessage(texto=Hola tweet websocket!, fecha=Sat Oct 19 09:07:10 CEST 2019, autor=1, type=TWEET)
+[INFO ] 2019-10-19 09:07:10.909 [clientOutboundChannel-5] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-19 09:07:10.917 [http-nio-auto-1-exec-3] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-19 09:07:10.928 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-19 09:07:10.928 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-19 09:07:10.928 [Thread-4] WebSocketEventListener - User Disconnected : 1
+[INFO ] 2019-10-24 14:37:03.033 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16296 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 14:37:03.052 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 14:37:03.053 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 14:37:16.254 [main] TweetWSControllerTest - Started TweetWSControllerTest in 13.897 seconds (JVM running for 17.395)
+[INFO ] 2019-10-24 14:37:16.903 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:37:17.008 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:37:47.738 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 18108 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 14:37:47.754 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 14:37:47.754 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 14:38:00.343 [main] TweetWSControllerTest - Started TweetWSControllerTest in 13.615 seconds (JVM running for 17.82)
+[INFO ] 2019-10-24 14:38:01.195 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:38:01.391 [clientOutboundChannel-3] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:38:11.507 [clientOutboundChannel-4] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:38:11.544 [http-nio-auto-1-exec-5] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:38:11.570 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:38:11.574 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:40:38.964 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 2828 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 14:40:38.994 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 14:40:38.994 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 14:40:51.760 [main] TweetWSControllerTest - Started TweetWSControllerTest in 13.574 seconds (JVM running for 17.813)
+[INFO ] 2019-10-24 14:40:52.368 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:40:52.521 [clientOutboundChannel-3] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:41:02.705 [clientOutboundChannel-4] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:41:02.714 [http-nio-auto-1-exec-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:41:02.726 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:41:02.727 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:42:02.277 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 15256 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 14:42:02.301 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 14:42:02.303 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 14:42:15.466 [main] TweetWSControllerTest - Started TweetWSControllerTest in 13.976 seconds (JVM running for 18.169)
+[INFO ] 2019-10-24 14:42:16.336 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:42:16.564 [clientOutboundChannel-2] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:42:26.663 [clientOutboundChannel-3] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:42:26.709 [http-nio-auto-1-exec-7] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:42:26.750 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:42:26.754 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:44:56.201 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17740 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 14:44:56.228 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 14:44:56.228 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 14:45:11.395 [main] TweetWSControllerTest - Started TweetWSControllerTest in 15.948 seconds (JVM running for 20.055)
+[INFO ] 2019-10-24 14:45:11.967 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:45:12.183 [clientOutboundChannel-3] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:45:22.390 [clientOutboundChannel-4] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:45:22.403 [http-nio-auto-1-exec-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:45:22.428 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:45:22.429 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:46:38.305 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 10720 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 14:46:38.336 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 14:46:38.336 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 14:46:50.207 [main] TweetWSControllerTest - Started TweetWSControllerTest in 12.785 seconds (JVM running for 16.986)
+[INFO ] 2019-10-24 14:46:50.908 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:46:51.092 [clientOutboundChannel-3] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:47:01.230 [clientOutboundChannel-4] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:47:01.262 [http-nio-auto-1-exec-5] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:47:01.335 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:47:01.337 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:47:55.260 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17212 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 14:47:55.288 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 14:47:55.288 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 14:48:08.068 [main] TweetWSControllerTest - Started TweetWSControllerTest in 13.624 seconds (JVM running for 17.781)
+[INFO ] 2019-10-24 14:48:08.736 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:48:08.943 [clientOutboundChannel-3] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:48:19.136 [clientOutboundChannel-4] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 14:48:19.144 [http-nio-auto-1-exec-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:48:19.223 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:48:19.223 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 14:51:17.580 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7916 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 14:51:17.597 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 14:51:17.600 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 14:51:29.747 [main] TweetWSControllerTest - Started TweetWSControllerTest in 12.866 seconds (JVM running for 17.42)
+[INFO ] 2019-10-24 20:07:21.218 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 6308 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:07:21.246 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:07:21.246 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:07:47.020 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 6308 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:07:47.020 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:07:47.021 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:09:33.652 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 4512 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:09:33.672 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:09:33.672 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:09:34.649 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 4512 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:09:34.649 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:09:34.649 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:11:08.790 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 4644 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:11:08.815 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:11:08.819 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:11:32.001 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 4644 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:11:32.001 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:11:32.002 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:11:48.996 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 4644 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:11:48.996 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:11:48.996 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:12:07.340 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12316 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:12:07.361 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:12:07.361 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:12:08.447 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12316 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:12:08.447 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:12:08.450 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:12:08.812 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12316 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:12:08.813 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:12:08.813 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:12:09.017 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12316 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:12:09.018 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:12:09.018 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:12:09.190 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12316 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:12:09.191 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:12:09.191 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:12:09.379 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12316 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:12:09.383 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:12:09.383 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:18:53.837 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 11656 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:18:53.856 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:18:53.858 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:18:54.893 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 11656 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:18:54.893 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:18:54.893 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:18:55.243 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 11656 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:18:55.244 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:18:55.244 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:18:55.423 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 11656 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:18:55.423 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:18:55.423 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:18:55.602 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 11656 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:18:55.602 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:18:55.603 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:18:55.740 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 11656 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:18:55.740 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:18:55.742 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:21:39.422 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17868 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:21:39.440 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:21:39.440 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:21:40.418 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17868 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:21:40.419 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:21:40.419 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:21:40.835 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17868 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:21:40.835 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:21:40.839 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:21:41.163 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17868 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:21:41.164 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:21:41.165 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:21:41.430 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17868 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:21:41.432 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:21:41.433 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:21:41.623 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17868 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:21:41.626 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:21:41.626 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:23:49.089 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14456 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:23:49.110 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:23:49.111 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:23:50.047 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14456 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:23:50.047 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:23:50.048 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:23:50.272 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14456 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:23:50.273 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:23:50.273 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:23:50.453 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14456 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:23:50.455 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:23:50.455 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:23:50.638 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14456 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:23:50.638 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:23:50.639 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:23:50.788 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14456 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:23:50.792 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:23:50.792 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:25:14.412 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14636 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:25:14.430 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:25:14.430 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:25:38.360 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14636 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:25:38.361 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:25:38.361 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:25:55.966 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14636 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:25:55.968 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:25:55.969 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:26:17.285 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14636 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:26:17.287 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:26:17.287 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:26:32.735 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7544 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:26:32.753 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:26:32.755 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:26:56.976 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7544 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:26:56.977 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:26:56.978 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:27:14.293 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7544 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:27:14.293 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:27:14.294 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:28:39.142 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 8736 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:28:39.157 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:28:39.161 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:28:40.223 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 8736 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:28:40.224 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:28:40.225 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:28:40.593 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 8736 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:28:40.594 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:28:40.596 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:28:40.807 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 8736 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:28:40.808 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:28:40.809 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:28:40.989 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 8736 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:28:40.989 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:28:40.990 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:28:41.168 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 8736 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:28:41.168 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:28:41.170 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:29:35.234 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 4208 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:29:35.255 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:29:35.262 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:29:38.437 [main] TweetWSControllerTest - Started TweetWSControllerTest in 3.898 seconds (JVM running for 8.031)
+[INFO ] 2019-10-24 20:30:20.285 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 2660 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:30:20.313 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:30:20.319 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:30:23.429 [main] TweetWSControllerTest - Started TweetWSControllerTest in 3.944 seconds (JVM running for 7.801)
+[INFO ] 2019-10-24 20:30:48.408 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14632 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:30:48.427 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:30:48.427 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:30:51.192 [main] TweetWSControllerTest - Started TweetWSControllerTest in 3.483 seconds (JVM running for 7.097)
+[INFO ] 2019-10-24 20:32:00.018 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 15560 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:32:00.060 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:32:00.065 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:32:03.341 [main] TweetWSControllerTest - Started TweetWSControllerTest in 4.052 seconds (JVM running for 7.738)
+[INFO ] 2019-10-24 20:33:42.710 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:33:42.727 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:33:42.727 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:34:05.222 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:34:05.222 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:34:05.222 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:34:22.303 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:34:22.303 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:34:22.303 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:34:38.909 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:34:38.909 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:34:38.910 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:34:56.381 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:34:56.382 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:34:56.386 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:35:13.834 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:35:13.834 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:35:13.835 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:36:13.960 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 14472 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:36:13.980 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:36:13.980 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:36:19.939 [main] TweetWSControllerTest - Started TweetWSControllerTest in 6.778 seconds (JVM running for 10.816)
+[INFO ] 2019-10-24 20:36:57.922 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:36:57.939 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:36:57.941 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:37:02.928 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:37:02.929 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:37:02.929 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:37:04.362 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:37:04.364 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:37:04.364 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:37:05.481 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:37:05.481 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:37:05.481 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:37:06.619 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:37:06.623 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:37:06.624 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:37:07.712 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:37:07.716 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:37:07.716 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:39:09.497 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16676 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:39:09.521 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:39:09.524 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:39:15.108 [main] TweetWSControllerTest - Started TweetWSControllerTest in 6.403 seconds (JVM running for 10.122)
+[INFO ] 2019-10-24 20:40:47.808 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 7896 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:40:47.830 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:40:47.830 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:40:53.519 [main] TweetWSControllerTest - Started TweetWSControllerTest in 6.435 seconds (JVM running for 10.269)
+[INFO ] 2019-10-24 20:41:15.362 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 18104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:41:15.380 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:41:15.382 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:41:20.506 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 18104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:41:20.507 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:41:20.507 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:41:21.920 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 18104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:41:21.921 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:41:21.921 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:41:23.188 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 18104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:41:23.188 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:41:23.196 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:41:24.437 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 18104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:41:24.437 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:41:24.437 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:41:25.795 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 18104 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:41:25.796 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:41:25.796 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:43:09.003 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 6200 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:43:09.022 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:43:09.023 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:43:09.785 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 6200 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:43:09.785 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:43:09.789 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:43:10.068 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 6200 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:43:10.069 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:43:10.070 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:43:10.275 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 6200 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:43:10.276 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:43:10.276 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:43:10.511 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 6200 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:43:10.511 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:43:10.513 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:43:10.742 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 6200 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:43:10.743 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:43:10.743 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:47:12.463 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 6084 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:47:12.493 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:47:12.497 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:47:22.034 [main] TweetWSControllerTest - Started TweetWSControllerTest in 10.642 seconds (JVM running for 16.931)
+[INFO ] 2019-10-24 20:49:06.282 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16980 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:49:06.293 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:49:06.293 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:49:12.027 [main] TweetWSControllerTest - Started TweetWSControllerTest in 6.553 seconds (JVM running for 10.322)
+[INFO ] 2019-10-24 20:49:30.843 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 3896 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:49:30.855 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:49:30.855 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:49:36.051 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 3896 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:49:36.052 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:49:36.053 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:49:37.524 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 3896 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:49:37.525 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:49:37.525 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:49:38.924 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 3896 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:49:38.924 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:49:38.925 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:49:40.104 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 3896 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:49:40.104 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:49:40.104 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:49:41.310 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 3896 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:49:41.311 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:49:41.311 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:03.986 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:04.000 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:04.004 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:09.389 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:09.389 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:09.389 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:10.748 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:10.749 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:10.749 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:11.965 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:11.966 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:11.966 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:13.161 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:13.161 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:13.162 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:14.348 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16520 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:14.348 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:14.352 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:29.535 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 9000 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:29.564 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:29.565 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:36.075 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 9000 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:36.076 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:36.076 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:37.553 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 9000 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:37.554 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:37.555 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:38.879 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 9000 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:38.881 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:38.881 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:39.982 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 9000 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:39.982 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:39.982 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:50:41.007 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 9000 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:50:41.008 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:50:41.008 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:53:12.426 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 4644 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 20:53:12.454 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 20:53:12.464 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 20:53:24.171 [main] TweetWSControllerTest - Started TweetWSControllerTest in 12.54 seconds (JVM running for 16.736)
+[INFO ] 2019-10-24 21:02:57.888 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 11996 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:02:57.902 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:02:57.903 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:03:09.404 [main] TweetWSControllerTest - Started TweetWSControllerTest in 12.245 seconds (JVM running for 16.128)
+[INFO ] 2019-10-24 21:03:09.996 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 21:03:10.102 [Thread-5] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 21:04:09.907 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17312 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:04:09.923 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:04:09.923 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:04:10.936 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17312 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:04:10.936 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:04:10.939 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:04:11.381 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17312 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:04:11.381 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:04:11.381 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:04:11.702 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17312 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:04:11.703 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:04:11.704 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:04:12.017 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17312 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:04:12.018 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:04:12.019 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:04:12.193 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 17312 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:04:12.193 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:04:12.193 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:05:05.285 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 4000 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:05:05.305 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:05:05.305 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:05:10.680 [main] TweetWSControllerTest - Started TweetWSControllerTest in 6.174 seconds (JVM running for 9.9)
+[INFO ] 2019-10-24 21:05:11.462 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 21:05:11.613 [clientOutboundChannel-2] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 21:05:21.769 [clientOutboundChannel-3] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 21:05:21.784 [http-nio-auto-1-exec-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 21:05:21.811 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 21:05:21.814 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 21:06:41.695 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 3596 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:06:41.712 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:06:41.712 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:06:47.255 [main] TweetWSControllerTest - Started TweetWSControllerTest in 6.468 seconds (JVM running for 10.106)
+[INFO ] 2019-10-24 21:06:47.982 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 21:06:48.088 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 21:06:48.189 [clientInboundChannel-7] WebSocketEventListener - ENTRAAAAAAAAAAAAAA
+[INFO ] 2019-10-24 21:09:21.609 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 12528 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:09:21.627 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:09:21.627 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:09:26.893 [main] TweetWSControllerTest - Started TweetWSControllerTest in 6.066 seconds (JVM running for 9.978)
+[INFO ] 2019-10-24 21:09:27.665 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 21:09:27.774 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 21:09:27.884 [clientInboundChannel-7] WebSocketEventListener - TweetMessage(texto=Hola tweet websocket!, fecha=Thu Oct 24 21:09:27 CEST 2019, autor=1, type=TWEET)::hola
+[INFO ] 2019-10-24 21:09:55.720 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 320 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:09:55.731 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:09:55.735 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:10:01.087 [main] TweetWSControllerTest - Started TweetWSControllerTest in 6.154 seconds (JVM running for 9.823)
+[INFO ] 2019-10-24 21:10:01.906 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 21:10:02.048 [clientOutboundChannel-2] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 21:10:02.121 [clientInboundChannel-7] WebSocketEventListener - TweetMessage(texto=Hola tweet websocket!, fecha=Thu Oct 24 21:10:01 CEST 2019, autor=1, type=TWEET)::hola
+[INFO ] 2019-10-24 21:10:02.156 [main] WebSocketEventListener - TweetMessage received:TweetMessage(texto=Hola tweet websocket!, fecha=Thu Oct 24 21:10:01 CEST 2019, autor=1, type=TWEET)
+[INFO ] 2019-10-24 21:10:02.188 [clientOutboundChannel-5] WebSocketEventListener - Received a new web socket connection
+[INFO ] 2019-10-24 21:10:02.204 [http-nio-auto-1-exec-3] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 21:10:02.208 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 21:10:02.212 [Thread-4] WebSocketEventListener - Temas:
+[INFO ] 2019-10-24 21:10:02.222 [Thread-4] WebSocketEventListener - Received a new web socket disconnection
+[INFO ] 2019-10-24 21:12:59.101 [main] TweetWSControllerTest - Starting TweetWSControllerTest on DESKTOP-HOM2JF3 with PID 16256 (started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterApp)
+[DEBUG] 2019-10-24 21:12:59.125 [main] TweetWSControllerTest - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-24 21:12:59.128 [main] TweetWSControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-24 21:13:05.221 [main] TweetWSControllerTest - Started TweetWSControllerTest in 6.943 seconds (JVM running for 10.668)
+[INFO ] 2019-10-24 21:13:06.218 [clientOutboundChannel-1] WebSocketEventListener - Received a new web socket connection!!
+[INFO ] 2019-10-24 21:13:06.444 [clientOutboundChannel-2] WebSocketEventListener - Received a new web socket connection!!
+[INFO ] 2019-10-24 21:13:06.532 [clientInboundChannel-7] WebSocketEventListener - TweetMessage(texto=Hola tweet websocket!, fecha=Thu Oct 24 21:13:06 CEST 2019, autor=1, type=TWEET)::hola
+[INFO ] 2019-10-24 21:13:06.595 [main] WebSocketEventListener - TweetMessage received:TweetMessage(texto=Hola tweet websocket!, fecha=Thu Oct 24 21:13:06 CEST 2019, autor=1, type=TWEET)
+[INFO ] 2019-10-24 21:13:06.701 [clientOutboundChannel-5] WebSocketEventListener - Received a new web socket connection!!
+[INFO ] 2019-10-24 21:13:06.721 [http-nio-auto-1-exec-3] WebSocketEventListener - Received a new web socket disconnection!!
+[INFO ] 2019-10-24 21:13:06.731 [Thread-4] WebSocketEventListener - Received a new web socket disconnection!!
+[INFO ] 2019-10-24 21:13:06.731 [Thread-4] WebSocketEventListener - Tema:hola::hola
+[INFO ] 2019-10-24 21:13:06.731 [Thread-4] WebSocketEventListener - Received a new web socket disconnection!!

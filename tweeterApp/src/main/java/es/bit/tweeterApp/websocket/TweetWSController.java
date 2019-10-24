@@ -1,6 +1,9 @@
 package es.bit.tweeterApp.websocket;
 
 import es.bit.tweeterApp.websocket.model.TweetMessage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.messaging.handler.annotation.DestinationVariable;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;
@@ -11,19 +14,13 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @Controller
 @CrossOrigin
 public class TweetWSController {
+    private static final Logger logger = LoggerFactory.getLogger(WebSocketEventListener.class);
 
-    @MessageMapping("/tweets.sendMessage")
-    @SendTo("/topic/tweets")
-    public TweetMessage sendMessage(@Payload TweetMessage tweetMessage) {
-        return tweetMessage;
-    }
-
-    @MessageMapping("/tweets.addUser")
-    @SendTo("/topic/tweets")
-    public TweetMessage addUser(@Payload TweetMessage tweetMessage,
-                               SimpMessageHeaderAccessor headerAccessor) {
-        // Add username in web socket session
-        //headerAccessor.getSessionAttributes().put("user", tweetMessage.getAutor());
+    @MessageMapping("/tweets/{theme}")
+    @SendTo("/topic/tweets/{theme}")
+    public TweetMessage themeChannel(@Payload TweetMessage tweetMessage, @DestinationVariable String theme, SimpMessageHeaderAccessor headerAccessor) {
+        logger.info(tweetMessage+"::"+theme);
+        headerAccessor.getSessionAttributes().put(theme, theme);
         return tweetMessage;
     }
 }

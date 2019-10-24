@@ -11,6 +11,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.socket.messaging.SessionConnectedEvent;
 import org.springframework.web.socket.messaging.SessionDisconnectEvent;
 
+import java.util.Map;
+
 @Component
 public class WebSocketEventListener {
     private static final Logger logger = LoggerFactory.getLogger(WebSocketEventListener.class);
@@ -20,23 +22,17 @@ public class WebSocketEventListener {
 
     @EventListener
     public void handleWebSocketConnectListener(SessionConnectedEvent event) {
-        logger.info("Received a new web socket connection");
+        logger.info("Received a new web socket connection!!");
     }
 
     @EventListener
     public void handleWebSocketDisconnectListener(SessionDisconnectEvent event) {
         StompHeaderAccessor headerAccessor = StompHeaderAccessor.wrap(event.getMessage());
-        logger.info("Received a new web socket disconnection");
+        logger.info("Received a new web socket disconnection!!");
 
-        String user = (String) headerAccessor.getSessionAttributes().get("user");
-        if(user != null) {
-            logger.info("User Disconnected : " + user);
-
-            TweetMessage tweetMessage = new TweetMessage();
-            tweetMessage.setType(TweetMessage.MessageType.LEAVE);
-            tweetMessage.setAutor(new Long(user));
-
-            messagingTemplate.convertAndSend("/topic/tweets", tweetMessage);
-        }
+        Map themes = headerAccessor.getSessionAttributes();
+        themes.forEach((k,v)->{
+            logger.info("Tema:"+k+"::"+v);
+        });
     }
 }

@@ -1,5 +1,7 @@
 package es.bit.tweeterApp.websocket;
 
+import es.bit.tweeterApp.config.AppConfig;
+import es.bit.tweeterApp.websocket.config.WebSocketConfig;
 import es.bit.tweeterApp.websocket.model.TweetMessage;
 import org.junit.Before;
 import org.junit.Test;
@@ -7,13 +9,19 @@ import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;
+import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.messaging.converter.MappingJackson2MessageConverter;
 import org.springframework.messaging.simp.stomp.StompFrameHandler;
 import org.springframework.messaging.simp.stomp.StompHeaders;
 import org.springframework.messaging.simp.stomp.StompSession;
 import org.springframework.messaging.simp.stomp.StompSessionHandlerAdapter;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.socket.client.standard.StandardWebSocketClient;
 import org.springframework.web.socket.messaging.WebSocketStompClient;
 import org.springframework.web.socket.sockjs.client.SockJsClient;
@@ -24,25 +32,32 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.LinkedBlockingDeque;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.junit.Assert.*;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class TweetWSControllerTest {
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest(
+        webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT,
+        classes = {WebSocketConfig.class}
+)
+@EnableAutoConfiguration(exclude = {
+        DataSourceAutoConfiguration.class,
+        DataSourceTransactionManagerAutoConfiguration.class,
+        HibernateJpaAutoConfiguration.class
+})
+public class TweetWSControllerTest {
     private static final Logger logger = LoggerFactory.getLogger(WebSocketEventListener.class);
 
     @Value("${local.server.port}")
     private int port;
 
+    private String theme="hola";
     private String WEBSOCKET_URI;
-    static final String WEBSOCKET_TOPIC = "/topic/tweets";
-    static final String WEBSOCKET_ADD_USER = "/app/tweets.addUser";
+    private String SEND_THEME_ENDPOINT = "/app/tweets/";
+    private String SUBSCRIBE_THEME_ENDPOINT = "/topic/tweets/";
 
     CompletableFuture<TweetMessage> completableFuture;
     WebSocketStompClient stompClient;
@@ -50,7 +65,7 @@ public class TweetWSControllerTest {
 
     @Before
     public void setup() throws Exception {
-        WEBSOCKET_URI="ws://localhost:"+port+"/tweets";
+        WEBSOCKET_URI="ws://localhost:"+port+"/tweets/";
 
         completableFuture = new CompletableFuture<>();
         stompClient = new WebSocketStompClient(new SockJsClient(createTransportClient()));
@@ -58,14 +73,14 @@ public class TweetWSControllerTest {
         session = stompClient
                 .connect(WEBSOCKET_URI, new StompSessionHandlerAdapter() {})
                 .get(1, SECONDS);
-        session.subscribe(WEBSOCKET_TOPIC, new DefaultStompFrameHandler());
+        session.subscribe(SUBSCRIBE_THEME_ENDPOINT+theme, new DefaultStompFrameHandler());
     }
 
     @Test
     public void shouldSendTweetToServer() throws Exception {
 
         TweetMessage tweetMessage=new TweetMessage("Hola tweet websocket!",new Date(),1L, TweetMessage.MessageType.TWEET);
-        session.send(WEBSOCKET_ADD_USER, tweetMessage);
+        session.send(SEND_THEME_ENDPOINT+theme, tweetMessage);
         assertTrue(session.isConnected());
     }
 
