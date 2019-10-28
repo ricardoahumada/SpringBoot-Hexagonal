@@ -1,0 +1,4 @@
+[INFO ] 2019-10-28 11:52:51.474 [main] TweeterAppApplication - Starting TweeterAppApplication on DESKTOP-HOM2JF3 with PID 16620 (D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterAppModular\application\target\classes started by ricardo in D:\Shared\MyFiles\BIT\Spring5\SpringBoot\tweeterAppModular\application)
+[DEBUG] 2019-10-28 11:52:51.541 [main] TweeterAppApplication - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+[INFO ] 2019-10-28 11:52:51.545 [main] TweeterAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-10-28 11:52:59.938 [main] TweeterAppApplication - Started TweeterAppApplication in 12.918 seconds (JVM running for 34.252)
