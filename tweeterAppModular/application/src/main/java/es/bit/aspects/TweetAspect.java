@@ -1,4 +1,4 @@
-package es.bit.tweeterApp.aspects;
+package es.bit.aspects;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -37,8 +37,6 @@ public class TweetAspect {
     @AfterReturning(value = "execution(* es.bit.TweetController.addTweet(..))",
             returning = "result")
     public void afterReturningAddTweet(JoinPoint joinPoint, Object result) {
-        logger.info("{} returned with value {}", joinPoint, result);
-        //messagingTemplate.convertAndSend("/topic/tweets", TweetMapper.INSTANCE.tweetDtoTotweetMessage(tweetDto));
-
+        logger.info("**** {} returned with value {}", joinPoint, result);
     }
 }
