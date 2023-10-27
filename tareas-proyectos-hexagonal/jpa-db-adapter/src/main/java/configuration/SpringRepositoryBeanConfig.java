@@ -12,8 +12,8 @@ import java.util.Properties;
 
 import javax.sql.DataSource;
 
-import es.bit.tareasproyectoshex.ports.UserRepository;
-import es.bit.tareasproyectoshex.repositoryadapters.UserJPARepositoryAdapter;
+import com.banana.tareasproyectoshex.ports.UserRepository;
+import com.banana.tareasproyectoshex.repositoryadapters.UserJPARepositoryAdapter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

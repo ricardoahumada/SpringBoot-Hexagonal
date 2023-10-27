@@ -6,11 +6,11 @@
 
     <parent>
         <artifactId>tareasproyectoshex</artifactId>
-        <groupId>es.bit</groupId>
+        <groupId>com.banana</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>es.bit</groupId>
+    <groupId>com.banana</groupId>
     <artifactId>domain</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>

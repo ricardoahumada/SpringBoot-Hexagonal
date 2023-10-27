@@ -21,7 +21,7 @@ Configuration:
 
   Loggers:
     logger:
-      - name: es.bit
+      - name: com.banana
         level: debug
         additivity: false
         AppenderRef:

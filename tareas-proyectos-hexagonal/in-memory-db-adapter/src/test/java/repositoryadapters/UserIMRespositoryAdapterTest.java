@@ -9,8 +9,8 @@
 package repositoryadapters;
 
 import configuration.SpringRepositoryConfig;
-import es.bit.tareasproyectoshex.models.User;
-import es.bit.tareasproyectoshex.ports.UserRepository;
+import com.banana.tareasproyectoshex.models.User;
+import com.banana.tareasproyectoshex.ports.UserRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

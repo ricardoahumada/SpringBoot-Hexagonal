@@ -8,8 +8,8 @@
  
 package configuration;
 
-import es.bit.tareasproyectoshex.ports.UserRepository;
-import es.bit.tareasproyectoshex.repositoryadapters.UserIMRepositoryAdapter;
+import com.banana.tareasproyectoshex.ports.UserRepository;
+import com.banana.tareasproyectoshex.repositoryadapters.UserIMRepositoryAdapter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

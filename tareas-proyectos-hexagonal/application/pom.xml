@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>es.bit</groupId>
+		<groupId>com.banana</groupId>
 		<artifactId>tareasproyectoshex</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>es.bit</groupId>
+	<groupId>com.banana</groupId>
 	<artifactId>application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -26,19 +26,19 @@
 		</dependency>
 
 		<dependency>
-			<groupId>es.bit</groupId>
+			<groupId>com.banana</groupId>
 			<artifactId>rest-api-adapter</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
-			<groupId>es.bit</groupId>
+			<groupId>com.banana</groupId>
 			<artifactId>in-memory-db-adapter</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
-			<groupId>es.bit</groupId>
+			<groupId>com.banana</groupId>
 			<artifactId>jpa-db-adapter</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>

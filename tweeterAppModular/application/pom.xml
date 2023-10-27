@@ -4,11 +4,11 @@
 
   <parent>
     <artifactId>tweeterApp</artifactId>
-    <groupId>es.bit</groupId>
+    <groupId>com.banana</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <groupId>es.bit</groupId>
+  <groupId>com.banana</groupId>
   <artifactId>application</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -19,31 +19,31 @@
 
   <dependencies>
     <dependency>
-      <groupId>es.bit</groupId>
+      <groupId>com.banana</groupId>
       <artifactId>domain</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
 
     <dependency>
-      <groupId>es.bit</groupId>
+      <groupId>com.banana</groupId>
       <artifactId>tweeter-driven-adapter</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
 
     <dependency>
-      <groupId>es.bit</groupId>
+      <groupId>com.banana</groupId>
       <artifactId>tweeter-driver-adapter</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
 
     <dependency>
-      <groupId>es.bit</groupId>
+      <groupId>com.banana</groupId>
       <artifactId>websocket</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
 
     <dependency>
-      <groupId>es.bit</groupId>
+      <groupId>com.banana</groupId>
       <artifactId>api</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
